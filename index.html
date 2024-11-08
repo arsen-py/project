@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tasty Corner</title>
+    <link rel="stylesheet" href="tasty.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <span class="name">Tasty Corner</span>
+        <div class="nav-container">
+            <ul class="links">
+                <li><a href="#" id="lng-about">About</a></li>
+                <li><a href="#" id="lng-menu">Menu</a></li>
+                <li><a href="+37493176621" id="lng-contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="changeLanguage">
+            <select id="select">
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+                <option value="arm">ARM</option>
+            </select>
+        </div>
+
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown-menu">
+            <li><a href="/" id="lng-about">About</a></li>
+            <li><a href="/" id="lng-menu">Menu</a></li>
+            <li><a href="/" id="lng-contact">Contact</a></li>
+        </div>
+    </nav>
+
+
+    <!-- JS Links -->
+    <script src="lang.js"></script>
+    <script src="tasty.js"></script>
+    <script src="resp.js"></script>
+</body>
+</html>
