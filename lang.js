@@ -1,17 +1,17 @@
 const langArr = {
     "about": {
         "en": "About",
-        "ru": "О НАС",
+        "ru": "О Нас",
         "arm": "Մեր Մասին",
     },
 
-    "contact":{
+    "contact": {
         "en": "Contact Us",
-        "ru": "СВЯЖИТЕСЬ С НАМИ",
+        "ru": "Свяжитесь с Нами",
         "arm": "Կապվել մեր հետ",
     },
 
-    "menu":{
+    "menu": {
         "en": "Menu",
         "ru": "Меню",
         "arm": "Մենյու",
