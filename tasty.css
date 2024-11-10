@@ -88,6 +88,11 @@ li a:hover {
   display: flex;
 }
 
+.burgersAll{
+  padding-right: 20px;
+  transition: 0.5s;
+}
+
 .burgers {
   background-color: rgb(255, 255, 106);
   border-radius: 10px;
@@ -100,16 +105,50 @@ li a:hover {
   box-shadow: 0px 0px 20px rgb(255, 255, 106);
   border: 0;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .burgers span {
   font-size: 30px;
 }
 
-.burgers-descr{
+.brg1{
+  display: flex;
+}
+
+.brg2{
+  display: flex;
+}
+
+.brg1Descr{
   display: none;
   margin-left: 30px;
+  transition: 0.5s;
 }
+
+.brg2Descr{
+  display: none;
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+#brg1{
+  display: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#brg2{
+  display: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+
 /* Dropdown Menu */
 
 .dropdown-menu {

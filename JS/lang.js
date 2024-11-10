@@ -16,4 +16,10 @@ const langArr = {
         "ru": "Меню",
         "arm": "Մենյու",
     },
+
+    "brg1Name": {
+        "en": "goydaa",
+        "ru": "goydaa",
+        "arm": "goydaa",
+    },
 }
