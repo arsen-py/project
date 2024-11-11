@@ -17,9 +17,15 @@ const langArr = {
         "arm": "Մենյու",
     },
 
-    "brg1Name": {
-        "en": "goydaa",
-        "ru": "goydaa",
-        "arm": "goydaa",
+    "burger": {
+        "en": "Burgers",
+        "ru": "Бургеры",
+        "arm": "Բուրգերներ",
+    },
+
+    "back": {
+        "en": "Back",
+        "ru": "Назад",
+        "arm": "Հետ",
     },
 }
