@@ -74,9 +74,12 @@ li a:hover {
 
 .menu{
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
-.burgers {
+.burgers,.baskets, .strips, .longers, .fries {
   background-color: rgb(255, 255, 106);
   border-radius: 10px;
   width: 200px;
@@ -91,11 +94,11 @@ li a:hover {
   transition: 0.5s;
 }
 
-.burgers:hover{
+.baskets:hover, .burgers:hover, .strips:hover, .longers:hover, .fries:hover{
   transform: translateY(-20px);
 }
 
-.burgers span {
+.burgers , .baskets, .strips, .longers, .fries span {
   font-size: 30px;
 }
 
