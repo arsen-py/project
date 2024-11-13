@@ -1,0 +1,163 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Colors:
+      Green: #6A994E 
+      Yellow: #FFD300
+  */
+  
+  .navigation .links {
+    display: flex;
+    gap: 3rem;
+    margin-top: 0.3rem;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+    text-shadow: 5px 5px 10px black;
+    display: inline-block;
+  }
+  
+  li a:hover {
+    color: rgb(255, 255, 106);
+    transform: translateY(-8px);
+  }
+  
+  .name {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navigation {
+    background-color: #6a994e;
+    padding: 1rem 2rem;
+    padding-top: 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .navigation .toggle-btn {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #select {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    font-size: 22px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 0;
+    box-shadow: 0px 0px 10px black;
+    border: 0;
+  }
+  
+  
+  /* Menu */
+  
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .burgers,.baskets, .strips, .longers, .fries {
+    background-color: rgb(255, 255, 106);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 106);
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .baskets:hover, .burgers:hover, .strips:hover, .longers:hover, .fries:hover{
+    transform: translateY(-20px);
+  }
+  
+  .burgers , .baskets, .strips, .longers, .fries span {
+    font-size: 30px;
+  }
+  
+  /* Dropdown Menu */
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 100px;
+    height: 0;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .dropdown-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown-menu.open {
+    height: 170px;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 992px) {
+  
+    .nav-container .links,
+    .changeLanguage {
+      display: none;
+    }
+  
+    .navigation .toggle-btn {
+      display: block;
+    }
+  
+    .dropdown-menu {
+      display: block;
+    }
+  
+    #select {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .dropdown-menu {
+      left: 2rem;
+      width: unset;
+    }
+  
+    #select1 {
+      width: 70%;
+    }
+  }
