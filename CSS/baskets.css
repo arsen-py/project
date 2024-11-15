@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Poppins", sans-serif;
   }
@@ -27,7 +33,7 @@ body {
   }
   
   li a:hover {
-    color: rgb(255, 255, 106);
+    color: #ffff6a;
     transform: translateY(-8px);
   }
   
@@ -46,6 +52,7 @@ body {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
   }
   
@@ -60,7 +67,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     text-align: center;
-    background-color: rgb(39, 39, 39);
+    background-color: #272727;
     font-size: 22px;
     border-radius: 5px;
     color: #fff;
