@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tasty Corner</title>
+    <link rel="stylesheet" href="CSS/strips.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <span class="name">Tasty Corner</span>
+        <div class="nav-container">
+            <ul class="links">
+                <li><a href="./about.html" id="lng-about">About</a></li>
+                <li><a href="tel:+37493176621" id="lng-contact">Contact Us</a></li>
+                <li><a href="./index.html" id="lng-back">Back</a></li>
+            </ul>
+        </div>
+
+        <div class="changeLanguage">
+            <select id="select">
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+                <option value="arm">ARM</option>
+            </select>
+        </div>
+
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown-menu">
+            <li><a href="./about.html" id="lng-about">About</a></li>
+            <li><a href="tel:+37493176621" id="lng-contact">Contact Us</a></li>
+            <li><a href="./index.html" id="lng-back">Back</a></li>
+            <li>
+                <select id="select">
+                    <option value="en">EN</option>
+                    <option value="ru">RU</option>
+                    <option value="arm">ARM</option>
+                </select>
+            </li>
+        </div>
+    </nav>
+
+    <!-- Menu -->
+    <main class="menu">
+        <div class="stripsAll">
+            <div class="strips" onclick="strips()">
+                <span id="lng-strips">Strips</span>
+            </div>
+            <!-- Strips 1 -->
+            <div class="str">
+                <img id="str1" src="images/DarkWindows11Wallpaper.jpg" alt="no img" width="100" height="100" />
+                <div class="descr">
+                    <h3 class="lng-str1Name">Strips 1</h3>
+                    <p class="lng-strp1" style="color: rgb(129, 129, 129);">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum non, reprehenderit unde at maxime
+                        eligendi dignissimos! Nam minima quisquam mollitia doloremque delectus placeat, obcaecati rem
+                        adipisci laudantium illum ullam blanditiis?
+                    </p>
+                </div>
+            </div>
+            <!-- Strips 2 -->
+            <div class="str">
+                <img id="str2" src="images/DarkWindows11Wallpaper.jpg" alt="no img" width="100" height="100" />
+                <div class="descr">
+                    <h3 class="lng-str2Name">Strips 2</h3>
+                    <p class="lng-strp2" style="color: rgb(129, 129, 129);">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum non, reprehenderit unde at maxime
+                        eligendi dignissimos! Nam minima quisquam mollitia doloremque delectus placeat, obcaecati rem
+                        adipisci laudantium illum ullam blanditiis?
+                    </p>
+                </div>
+            </div>
+            <!-- Strips 3 -->
+            <div class="str">
+                <img id="str3" src="images/DarkWindows11Wallpaper.jpg" alt="no img" width="100" height="100" />
+                <div class="descr">
+                    <h3 class="lng-str3Name">Strips 3</h3>
+                    <p class="lng-strp3" style="color: rgb(129, 129, 129);">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum non, reprehenderit unde at maxime
+                        eligendi dignissimos! Nam minima quisquam mollitia doloremque delectus placeat, obcaecati rem
+                        adipisci laudantium illum ullam blanditiis?
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- JS Links -->
+    <script src="JS/click.js"></script>
+    <script src="JS/lang.js"></script>
+    <script src="JS/resp.js"></script>
+    <script src="JS/tasty.js"></script>
+</body>
+
+</html>

@@ -1,10 +1,11 @@
-const select = document.querySelector("select");
+const select = document.querySelector("#select");
 const allLang = ["en", "ru", "arm"];
 
 select.addEventListener("change", changeURLLanguage);
 
 function changeURLLanguage() {
     let lang = select.value;
+    console.log(lang);
     location.href = window.location.pathname + "#" + lang;
     location.reload();
 }

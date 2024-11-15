@@ -75,8 +75,10 @@ li a:hover {
 .menu{
   display: flex;
   justify-content: space-around;
+  margin-left: 15%;
   flex-wrap: wrap;
   gap: 40px;
+  width: 70%;
 }
 
 .burgers,.baskets, .strips, .longers, .fries {
@@ -87,7 +89,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: rgb(0, 0, 0);
   box-shadow: 0px 0px 20px rgb(255, 255, 106);
   border: 0;
   cursor: pointer;
@@ -149,6 +151,11 @@ li a:hover {
   #select {
     width: 70%;
   }
+
+  .menu{
+    width: 100%;
+    margin-left: 0%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -159,5 +166,30 @@ li a:hover {
 
   #select1 {
     width: 70%;
+  }
+  
+  .menu{
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 469px){
+  .dropdown-menu {
+    left: 2rem;
+    width: unset;
+  }
+
+  #select1 {
+    width: 70%;
+  }
+
+  .menu{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .burgers,.baskets, .strips, .longers, .fries{
+    width: 80%;
   }
 }

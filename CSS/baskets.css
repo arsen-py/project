@@ -3,9 +3,9 @@ body {
   }
   
   /* Colors:
-      Green: #6A994E 
-      Yellow: #FFD300
-  */
+        Green: #6A994E 
+        Yellow: #FFD300
+    */
   
   .navigation .links {
     display: flex;
@@ -69,21 +69,21 @@ body {
     border: 0;
   }
   
-  
   /* Menu */
   
-  .menu{
+  .menu {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 40px;
   }
   
-  .burgers,.baskets, .strips, .longers, .fries {
+  .basketsAll {
+    transition: 0.5s;
+  }
+  
+  .baskets {
     background-color: rgb(255, 255, 106);
     border-radius: 10px;
     width: 200px;
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,12 +94,28 @@ body {
     transition: 0.5s;
   }
   
-  .baskets:hover, .burgers:hover, .strips:hover, .longers:hover, .fries:hover{
+  .baskets:hover {
     transform: translateY(-20px);
   }
   
-  .burgers , .baskets, .strips, .longers, .fries span {
+  .baskets span {
     font-size: 30px;
+  }
+  
+  .bas {
+    display: flex;
+  }
+  
+  .descr {
+    margin-left: 30px;
+    transition: 0.5s;
+  }
+  
+  #bas1,#bas2,#bas3 {
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   
   /* Dropdown Menu */
@@ -132,7 +148,6 @@ body {
   /* Responsive Design */
   
   @media (max-width: 992px) {
-  
     .nav-container .links,
     .changeLanguage {
       display: none;
@@ -157,7 +172,7 @@ body {
       width: unset;
     }
   
-    #select1 {
+    #select {
       width: 70%;
     }
   }
